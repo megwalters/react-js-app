@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './party_cat.jpeg';
-import music_cat from './music_cat.jpeg'
+import music_cat from './music_cat.jpeg';
+import cat_friends from './cat_friends.jpeg';
 import './App.css';
 
 class App extends Component {
@@ -14,12 +15,11 @@ class App extends Component {
         <p className="App-intro">
           Compilation of party cat's suggestions to have a great weekend
         </p>
-        <p>
-          <ul> 
-          <li> Get some great tunes
-            </li>
-          </ul>
-          <img src={music_cat}/>
+        <p> 
+          Get some great tunes <br/><p></p>
+          <img src={music_cat}/> <br/><p></p>
+            Get some friends together <br/><p></p>
+            <img src={cat_friends}/>
           </p>
       </div>
     );
